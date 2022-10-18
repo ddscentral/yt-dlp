@@ -46,6 +46,7 @@
  - **aenetworks**: A+E Networks: A&E, Lifetime, History.com, FYI Network and History Vault
  - **aenetworks:collection**
  - **aenetworks:show**
+ - **AeonCo**
  - **afreecatv**: [<abbr title="netrc machine"><em>afreecatv</em></abbr>] afreecatv.com
  - **afreecatv:live**: [<abbr title="netrc machine"><em>afreecatv</em></abbr>] afreecatv.com
  - **afreecatv:user**
@@ -218,7 +219,7 @@
  - **cbssports:embed**
  - **CCMA**
  - **CCTV**: 央视网
- - **CDA**
+ - **CDA**: [<abbr title="netrc machine"><em>cdapl</em></abbr>]
  - **Cellebrite**
  - **CeskaTelevize**
  - **CGTN**
@@ -463,6 +464,7 @@
  - **gem.cbc.ca**: [<abbr title="netrc machine"><em>cbcgem</em></abbr>]
  - **gem.cbc.ca:live**
  - **gem.cbc.ca:playlist**
+ - **generic**: Generic downloader that works on some sites
  - **Gettr**
  - **GettrStreaming**
  - **Gfycat**
@@ -753,6 +755,7 @@
  - **MotherlessGroup**
  - **Motorsport**: motorsport.com
  - **MotorTrend**
+ - **MotorTrendOnDemand**
  - **MovieClips**
  - **MovieFap**
  - **Moviepilot**
@@ -881,6 +884,7 @@
  - **NoodleMagazine**
  - **Noovo**
  - **Normalboots**
+ - **NOSNLArticle**
  - **NosVideo**
  - **Nova**: TN.cz, Prásk.tv, Nova.cz, Novaplus.cz, FANDA.tv, Krásná.cz and Doma.cz
  - **NovaEmbed**
@@ -999,6 +1003,8 @@
  - **pluralsight**: [<abbr title="netrc machine"><em>pluralsight</em></abbr>]
  - **pluralsight:course**
  - **PlutoTV**
+ - **PodbayFM**
+ - **PodbayFMChannel**
  - **Podchaser**
  - **podomatic**
  - **Pokemon**
@@ -1170,6 +1176,7 @@
  - **schooltv**
  - **ScienceChannel**
  - **screen.yahoo:search**: Yahoo screen search; "yvsearch:" prefix
+ - **Screen9**
  - **Screencast**
  - **ScreencastOMatic**
  - **ScrippsNetworks**
@@ -1378,7 +1385,6 @@
  - **Turbo**
  - **tv.dfb.de**
  - **TV2**
- - **TV24UAGenericPassthrough**
  - **TV2Article**
  - **TV2DK**
  - **TV2DKBornholmPlay**
@@ -1584,6 +1590,7 @@
  - **WistiaChannel**
  - **WistiaPlaylist**
  - **wnl**: npo.nl, ntr.nl, omroepwnl.nl, zapp.nl and npo3.nl
+ - **wordpress:mb.miniAudioPlayer**
  - **wordpress:playlist**
  - **WorldStarHipHop**
  - **wppilot**

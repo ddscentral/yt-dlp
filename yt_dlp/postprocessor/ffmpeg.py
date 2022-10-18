@@ -1164,7 +1164,7 @@ class FFmpegConcatPP(FFmpegPostProcessor):
             raise PostProcessingError('Aborting concatenation because some downloads failed')
 
         exts = traverse_obj(entries, (..., 'requested_downloads', 0, 'ext'), (..., 'ext'))
-        ie_copy = collections.ChainMap({'ext': exts[0] if len(set(exts)) == 1 else 'mkv'},
+        ie_copy = collections.ChainMap({'ext': exts[0] if len(set(exts)) == 1 else 'mp4'},
                                        info, self._downloader._playlist_infodict(info))
         out_file = self._downloader.prepare_filename(ie_copy, 'pl_video')
 

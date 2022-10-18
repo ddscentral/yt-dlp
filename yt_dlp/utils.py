@@ -3556,10 +3556,11 @@ def get_compatible_ext(*, vcodecs, acodecs, vexts, aexts, preferences=None):
         return 'mkv'  # TODO: any other format allows this?
 
     # TODO: All codecs supported by parse_codecs isn't handled here
+    # DDS: MP4 container can do VP9/AAC just fine, no need for MKV trickery.
     COMPATIBLE_CODECS = {
         'mp4': {
             'av1', 'hevc', 'avc1', 'mp4a',  # fourcc (m3u8, mpd)
-            'h264', 'aacl', 'ec-3',  # Set in ISM
+            'h264', 'aacl', 'ec-3', 'vp9'  # Set in ISM (DDS: except for VP9).
         },
         'webm': {
             'av1', 'vp9', 'vp8', 'opus', 'vrbs',

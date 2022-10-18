@@ -4,6 +4,6 @@ __version__ = '2022.10.04'
 
 RELEASE_GIT_HEAD = '4e0511f27'
 
-VARIANT = None
+VARIANT = 'ddsc'
 
 UPDATE_HINT = None
