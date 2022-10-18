@@ -2949,13 +2949,16 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
             if is_full:
                 # these seem to mark watchtime "history" in the real world
                 # they're required, so send in a single value
+                # DDS: it seems using st: 0 instead of video_length does work to mark video as watched
                 qs.update({
-                    'st': video_length,
+                    'st': 0,
                     'et': video_length,
                 })
 
             url = urllib.parse.urlunparse(
                 parsed_url._replace(query=urllib.parse.urlencode(qs, True)))
+
+            self.report_warning(f"Mark URL: {url}\n");
 
             self._download_webpage(
                 url, video_id, f'Marking {label}watched',
